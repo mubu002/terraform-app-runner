@@ -8,7 +8,7 @@ on:
 
 jobs:
   # Builds a new container image, and pushes it on every commit to the repository
-  # Also pushes a tag called "latest" to track the latest commit
+  # Also pushes a tag called "latest" to track the latest commi
 
   build_docker_image:
     name: Push Docker image to ECR
